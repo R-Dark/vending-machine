@@ -1,0 +1,19 @@
+{
+  "name": "vending-machine-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js -e js, mustache",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "mustache-express": "^1.2.5",
+    "pg": "^7.3.0",
+    "sequelize": "^4.8.3"
+  }
+}
